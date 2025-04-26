@@ -1,18 +1,20 @@
+import './App.css';
+
 function Nav() {
   return (
     <>
-      <div class="navbar">
+      <div className="navbar">
         <ul>
-          <li class="navlist">
+          <li className="navlist">
             <a href="index.html">Home</a>
           </li>
-          <li class="navlist">
+          <li className="navlist">
             <a href="menu.html">Menu</a>
           </li>
-          <li class="navlist">
+          <li className="navlist">
             <a href="services.html">Services</a>
           </li>
-          <li class="navlist">
+          <li className="navlist">
             <a href="about.html">About Us</a>
           </li>
         </ul>
