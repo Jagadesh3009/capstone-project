@@ -1,0 +1,10 @@
+.specials{
+    background: #FFDDAB;
+    color: #495e57;
+    height: 75vh;
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 50px;
+}

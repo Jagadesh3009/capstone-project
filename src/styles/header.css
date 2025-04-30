@@ -1,0 +1,15 @@
+.logo {
+    display: flex;
+    position: fixed;
+    padding: 5px 2s0px;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFDDAB;
+    border-bottom: 0.5px solid #495e57;
+    width: 100%;
+  }
+
+  .logo img {
+    height: 50px;
+    padding-left: 3px;
+  }

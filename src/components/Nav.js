@@ -1,24 +1,25 @@
-import './App.css';
+import { Link } from 'react-router-dom';
+import "../styles/nav.css";
 
 function Nav() {
   return (
     <>
-      <div className="navbar">
+      <nav className="navbar">
         <ul>
           <li className="navlist">
-            <a href="index.html">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li className="navlist">
-            <a href="menu.html">Menu</a>
+            <Link to="/specials">Specials</Link>
           </li>
           <li className="navlist">
-            <a href="services.html">Services</a>
+            <Link to="/services">Services</Link>
           </li>
           <li className="navlist">
-            <a href="about.html">About Us</a>
+            <Link to="/aboutus">About Us</Link>
           </li>
         </ul>
-      </div>
+      </nav>
     </>
   );
 }

@@ -1,11 +1,13 @@
-import "./App.css";
+import "../styles/header.css";
+import Nav from "./Nav";
 
 function Header() {
   return (
     <>
-      <div className="logo">
+      <section className="logo">
         <img src="/assets/Asset 16@4x.png" alt="Client Logo" />
-      </div>
+        <Nav />
+      </section>
     </>
   );
 }
